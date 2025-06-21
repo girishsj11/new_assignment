@@ -37,21 +37,10 @@ class Employee:
 
     @classmethod
     def class_method(cls): #class method
-        """
-        Purpose: These methods operate on the class itself rather than a specific instance.
-        They are often used for factory methods (alternative constructors) or to interact with class-level data.
-        First Argument: They implicitly receive the class itself as their first argument, conventionally named cls.
-        Decorator: They are defined using the @classmethod decorator.
-        """
         print(f"The Employee is working in company called : {cls.company_name}")
 
     @staticmethod
     def static_method(num1,num2): #static method
-        """
-        Purpose: These methods are essentially regular functions that are logically grouped within a class but do not operate on the instance or the class itself. They are typically used for utility functions that don't depend on any class or instance state.
-        First Argument: They do not receive any implicit first argument (self or cls).
-        Decorator: They are defined using the @staticmethod decorator.
-        """
         return num1+num2
 
     #instance method
@@ -67,5 +56,12 @@ print(f"New Apprisal hike for employee is - {Emp.appraisal_hike(0.15)}")
 
 
 
-
+'''
+#output - 
+/usr/bin/python3.10 /home/giri/Desktop/Programs/new_assignment/class_ex.py 
+Employee details with name : Giri & Age : 25 & reg_number is : 912345
+The Employee is working in company called : company
+Static method return value - 11
+New Apprisal hike for employee is - 27000.0
+'''
 
