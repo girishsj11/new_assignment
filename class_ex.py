@@ -26,12 +26,6 @@ class Employee:
         self.__salary = salary
 
     def show_details(self): #instance method
-        """
-        Purpose: These are the most common type of method and operate on a specific instance (object) of a class.
-        They are used to access and modify the instance's data (attributes).
-        First Argument: They implicitly receive the instance itself as their first argument, conventionally named self.
-        Decorator: No special decorator is needed.
-        """
         print(f"Employee details with name : {self.name} & Age : {self.age} & reg_number is : {self.reg_no}")
 
 
