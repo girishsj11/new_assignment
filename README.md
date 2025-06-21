@@ -1,17 +1,18 @@
 # new_assignment
 New Assignment from 21/05/2025
 
+## Class_ex 
 
 In Python, a class serves as a blueprint or a template for creating objects. It defines the structure and behavior that objects of that class will possess.
 
-## Class:
+### Class:
 
     A class is a user-defined data type that encapsulates data (attributes or variables) and functions (methods) into a single unit.
     It is created using the class keyword.Attributes represent the properties or characteristics that objects of the class will have.
     Methods are functions defined within the class that operate on the object's data and define its behavior.
 
 
-## Object:
+### Object:
 
     An object is a concrete instance of a class.
 
@@ -23,7 +24,7 @@ Objects can access the attributes and call the methods defined in their class.
 
 In Python, methods within a class can be categorized into three types based on their relationship with the class and its instances: 
 
-## Instance Methods:
+### Instance Methods:
 
         These are the most common type of methods in a class.
         They operate on an instance (object) of the class and have access to instance-specific data (instance variables).
@@ -38,7 +39,7 @@ In Python, methods within a class can be categorized into three types based on t
             print(f"Instance method called. Instance value: {self.instance_value}")
 
 
-## Class Methods:
+### Class Methods:
 
     These methods are bound to the class itself, not to a specific instance.
 
@@ -54,7 +55,7 @@ They are often used for alternative constructors or for operations that involve 
         def class_method(cls):
             print(f"Class method called. Class attribute: {cls.class_attribute}")
 
-## Static Methods:
+### Static Methods:
 
     These methods do not depend on the class or instance state. 
 
@@ -67,3 +68,15 @@ They are typically used for utility functions that are related to the class but 
         @staticmethod
         def static_method(message):
             print(f"Static method called: {message}") 
+
+
+
+## Decorators 
+
+    In Python, decorators are a powerful and flexible way to modify or extend the behavior of functions or methods without directly altering their source code. They are essentially higher-order functions that take another function as an argument and return a new function, typically with enhanced or modified functionality. 
+How Decorators Work:
+
+    Function as Argument: A decorator function takes the function it is decorating as an argument.
+    Wrapper Function: Inside the decorator, a nested function (often called a "wrapper") is defined. This wrapper function encapsulates the original function and adds any desired additional logic (e.g., logging, timing, authentication).
+    Return Wrapper: The decorator function returns this wrapper function.
+    Syntactic Sugar: Python provides the @decorator_name syntax as a convenient way to apply decorators. Placing @decorator_name directly above a function definition is equivalent to my_function = decorator_name(my_function)
