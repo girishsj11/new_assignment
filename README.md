@@ -80,3 +80,29 @@ How Decorators Work:
     Wrapper Function: Inside the decorator, a nested function (often called a "wrapper") is defined. This wrapper function encapsulates the original function and adds any desired additional logic (e.g., logging, timing, authentication).
     Return Wrapper: The decorator function returns this wrapper function.
     Syntactic Sugar: Python provides the @decorator_name syntax as a convenient way to apply decorators. Placing @decorator_name directly above a function definition is equivalent to my_function = decorator_name(my_function)
+
+## Abstraction in python's OOPS concept
+
+Abstraction in Python, a core principle of Object-Oriented Programming (OOP), 
+involves hiding the complex implementation details of a system and exposing only the essential functionalities to the user. 
+This means users interact with a simplified interface, knowing what a component does without needing to know how it does it.
+
+
+    Key aspects of abstraction in Python:
+
+    Focus on essential features:
+            Abstraction emphasizes providing a high-level view, concentrating on the behavior and purpose of an object rather than its internal workings.
+
+    Achieved through Abstract Base Classes (ABCs):
+            Python uses the abc module and the ABC class to define abstract classes and methods. An abstract class cannot be instantiated directly and serves as a blueprint for other classes.
+    
+    Abstract methods:
+            These are methods declared within an abstract class without an implementation. Subclasses inheriting from an abstract class are required to provide their own concrete implementations for these abstract methods. 
+            This enforces a common interface across related classes.
+    
+    Simplifying complexity:
+            Abstraction helps manage complexity by breaking down a system into smaller, more manageable components, each with a clearly defined interface.
+
+    Enhancing maintainability and modularity:
+            By separating interface from implementation, abstraction makes code more modular, easier to understand, and less prone to errors when changes are made to internal workings.
+
