@@ -90,7 +90,8 @@ This means users interact with a simplified interface, knowing what a component 
 Abstraction is at design level, here we try to identify which methods/attributes that we wanted to hide it
 from the user & which one to show it user. so after idetifying the implementation will be done through some of 
 the access specifiers like - public , private & protected (Encapsulation features).
-    Key aspects of abstraction in Python:
+    
+Key aspects of abstraction in Python:
 
     Focus on essential features:
             Abstraction emphasizes providing a high-level view, concentrating on the behavior and purpose of an object rather than its internal workings.
