@@ -72,5 +72,17 @@ tata1 = TataCurve()
 tata1.wheels()
 tata1.display()
 
+'''
+#output - 
+/usr/bin/python3.10 /home/giri/Desktop/Programs/new_assignment/abstract.py 
+Vehicle class called 
+Car class called 
+Tata car class called 
+Depends on the vehicle type , the wheel allignment & number differs
+Car has 4 wheels in it
+Tata car 4 wheels with 1 extra wheel at the bumper side 
+In Tata curve car the display runs smoother
 
+Process finished with exit code 0
+'''
 
