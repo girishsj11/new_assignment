@@ -125,3 +125,14 @@ Key Python Libraries for Web Scraping:
     lxml: A fast and powerful XML and HTML parser, often used with XPath.
     Selenium/Playwright: For automating browser interactions and scraping dynamic content.
     Scrapy: A comprehensive web crawling framework for larger-scale scraping projects.
+
+## Webscrape : Selenium
+
+To use Selenium with Python, you'll primarily need to install the selenium Python package using pip and then install a WebDriver for your preferred browser. 
+Selenium allows you to automate browser interactions for testing web applications.
+
+Install the below things before proceeding further :
+    
+    pip install requests
+    pip install selenium
+    sudo apt-get install chromium-chromedriver 
