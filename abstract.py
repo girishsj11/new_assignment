@@ -1,5 +1,5 @@
 from abc import ABC,abstractmethod
-
+'''
 class Dog(ABC):
     def __init__(self):
         print("Abstract class called !!")
@@ -26,7 +26,7 @@ print(Dog1.name)
 Dog1.eat()
 Dog1.bark()
 
-'''
+
 ##ouput
 
 Abstract class called !!
@@ -37,3 +37,40 @@ The dog Pinky Barks so aggressivly #
 
 Process finished with exit code 0
 '''
+
+class Vehicle(ABC):
+    def __init__(self):
+        print("Vehicle class called ")
+
+    @classmethod
+    @abstractmethod
+    def wheels(cls):
+        print("Depends on the vehicle type , the wheel allignment & number differs")
+
+class Car(Vehicle):
+    def __init__(self):
+        super().__init__()
+        print("Car class called ")
+
+    def wheels(self):
+        super().wheels()
+        print("Car has 4 wheels in it")
+
+class TataCurve(Car):
+    def __init__(self):
+        super().__init__()
+        print("Tata car class called ")
+
+    def wheels(self):
+        super().wheels()
+        print("Tata car 4 wheels with 1 extra wheel at the bumper side ")
+
+    def display(self):
+        print("In Tata curve car the display runs smoother")
+
+tata1 = TataCurve()
+tata1.wheels()
+tata1.display()
+
+
+

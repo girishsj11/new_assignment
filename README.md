@@ -109,3 +109,19 @@ Key aspects of abstraction in Python:
     Enhancing maintainability and modularity:
             By separating interface from implementation, abstraction makes code more modular, easier to understand, and less prone to errors when changes are made to internal workings.
 
+
+
+## Webscrape : BeautifulSoup 
+
+Web scraping is the process of automatically extracting data from websites. 
+It involves using bots, also known as web scrapers, to retrieve data from websites, often by parsing the underlying HTML code. 
+This technique is used for various purposes, including data mining, price monitoring, and content aggregation
+
+
+Key Python Libraries for Web Scraping:
+
+    Requests: For making HTTP requests.
+    BeautifulSoup: For parsing HTML/XML and navigating the parse tree.
+    lxml: A fast and powerful XML and HTML parser, often used with XPath.
+    Selenium/Playwright: For automating browser interactions and scraping dynamic content.
+    Scrapy: A comprehensive web crawling framework for larger-scale scraping projects.
