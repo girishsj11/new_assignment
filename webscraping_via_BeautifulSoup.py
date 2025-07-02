@@ -3,7 +3,7 @@ import requests
 import csv
 
 url = "https://quotes.toscrape.com/"
-file_csv = "authors_quotes.csv"
+file_csv = "webscraping_via_BeautifulSoup.csv"
 page_2_scrape = requests.get(url)
 soup = BeautifulSoup(page_2_scrape.text,"html.parser")
 
