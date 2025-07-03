@@ -136,3 +136,28 @@ Install the below things before proceeding further :
     pip install requests
     pip install selenium
     sudo apt-get install chromium-chromedriver 
+
+## [shallow_deep_=_.py](shallow_deep_%3D_.py)
+
+'=' Operator operation will creates new variable but pointing to same memory address of the original
+variable was pointing , hence the any changes made on new will also affect the original variable's content.
+
+
+#### **shallow copy** 
+
+    Shallow copy creates a new object & it doesn't create copies of the object contained in the
+    original ,instead of it creates/insert reference to the same object that original object contains.
+
+on normal list-  
+
+    Changes were made in shallow copy object wont get reflect on the original object , on single/normal
+    list the shallow copy behaves exactly same as deep copy.
+
+on nested list-  
+
+    Changes were made in shallow copy object gets reflect on the original object.
+
+#### **deep copy**
+
+    Deep copy creates completely new & independent copy of the original object.
+    changes were made to the deep copy object including nested objects will not affect the original object.
