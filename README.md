@@ -55,6 +55,13 @@ They are often used for alternative constructors or for operations that involve 
         def class_method(cls):
             print(f"Class method called. Class attribute: {cls.class_attribute}")
 
+    
+    on the above example , if we try to change the class variable(class_attribute to "Yallo" from "Hello")
+    by using classname.class_variable(MyClass.class_attribute) or instance.class_variable .
+
+    then every time when we create new object , the new object will have the latest value on the class variable(Yallo).
+
+
 ### Static Methods:
 
     These methods do not depend on the class or instance state. 
