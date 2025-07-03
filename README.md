@@ -58,7 +58,6 @@ They are often used for alternative constructors or for operations that involve 
     
     on the above example , if we try to change the class variable(class_attribute to "Yallo" from "Hello")
     by using classname.class_variable(MyClass.class_attribute) or instance.class_variable .
-
     then every time when we create new object , the new object will have the latest value on the class variable(Yallo).
 
 
