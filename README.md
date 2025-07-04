@@ -1,7 +1,7 @@
 # new_assignment
 New Assignment from 21/05/2025
 
-## Class_ex 
+## Class_ex - [class_ex.py](class_ex.py)
 
 In Python, a class serves as a blueprint or a template for creating objects. It defines the structure and behavior that objects of that class will possess.
 
@@ -77,7 +77,7 @@ They are typically used for utility functions that are related to the class but 
 
 
 
-## Decorators 
+## Decorators - [decorators.py](decorators.py)
 
     In Python, decorators are a powerful and flexible way to modify or extend the behavior of functions or methods without directly altering their source code. They are essentially higher-order functions that take another function as an argument and return a new function, typically with enhanced or modified functionality. 
 How Decorators Work:
@@ -87,7 +87,7 @@ How Decorators Work:
     Return Wrapper: The decorator function returns this wrapper function.
     Syntactic Sugar: Python provides the @decorator_name syntax as a convenient way to apply decorators. Placing @decorator_name directly above a function definition is equivalent to my_function = decorator_name(my_function)
 
-## Abstraction in python's OOPS concept
+## Abstraction in python's OOPS concept - [abstract.py](abstract.py)
 
 Abstraction in Python, a core principle of Object-Oriented Programming (OOP), 
 involves hiding the complex implementation details of a system and exposing only the essential functionalities to the user. 
@@ -117,7 +117,8 @@ Key aspects of abstraction in Python:
 
 
 
-## Webscrape : BeautifulSoup 
+## Webscrape : BeautifulSoup - [webscraping_via_BeautifulSoup.py](webscraping_via_BeautifulSoup.py)
+#### result : [webscraping_via_BeautifulSoup.csv](webscraping_via_BeautifulSoup.csv)
 
 Web scraping is the process of automatically extracting data from websites. 
 It involves using bots, also known as web scrapers, to retrieve data from websites, often by parsing the underlying HTML code. 
@@ -132,7 +133,8 @@ Key Python Libraries for Web Scraping:
     Selenium/Playwright: For automating browser interactions and scraping dynamic content.
     Scrapy: A comprehensive web crawling framework for larger-scale scraping projects.
 
-## Webscrape : Selenium
+## Webscrape : Selenium - [webscraping_via_selenium.py](webscraping_via_selenium.py)
+#### result : [webscraping_via_selenium.csv](webscraping_via_selenium.csv)
 
 To use Selenium with Python, you'll primarily need to install the selenium Python package using pip and then install a WebDriver for your preferred browser. 
 Selenium allows you to automate browser interactions for testing web applications.
