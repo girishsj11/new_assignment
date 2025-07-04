@@ -167,3 +167,7 @@ on nested list-
 
     Deep copy creates completely new & independent copy of the original object.
     changes were made to the deep copy object including nested objects will not affect the original object.
+
+## [ScrapeTable.py](ScrapeTable.py)
+
+    With help of selenium & python , scraped the data from web table in an easy way. 
